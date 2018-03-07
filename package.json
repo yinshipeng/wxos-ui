@@ -1,11 +1,10 @@
 {
   "name": "wxos-ui",
-  "version": "1.0.0",
+  "version": "1.0.2",
   "description": "A wxos-ui project",
   "main": "index.js",
   "author": "yinshipeng@126.com",
   "license": "MIT",
-  "private": false,
   "scripts": {
     "build": "webpack --progress",
     "watch": "webpack --progress --watch",
