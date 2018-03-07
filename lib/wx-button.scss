@@ -1,0 +1,14 @@
+@import "common/var";
+.wx-button {
+  background-color: $--color-primary;
+  align-items: center;
+  justify-content: center;
+  width: 670px;
+  height: 90px;
+  border-radius: 12px;
+}
+
+.wx-text {
+  color: #ffffff;
+  font-size: 32px;
+}

@@ -1,0 +1,56 @@
+{
+  "name": "wxos-ui",
+  "version": "1.0.0",
+  "description": "A wxos-ui project",
+  "main": "index.js",
+  "author": "yinshipeng@126.com",
+  "license": "MIT",
+  "private": false,
+  "scripts": {
+    "build": "webpack --progress",
+    "watch": "webpack --progress --watch",
+    "serve": "anywhere -d build/example/ -p 8111",
+    "start": "gulp & npm run build && (npm run serve & npm run watch)"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git@github.com:yinshipeng/wxos-ui.git"
+  },
+  "keywords": [
+    "Weex Ui",
+    "Weex",
+    "Vue",
+    "Mobile",
+    "Ul Components",
+    "UI library"
+  ],
+  "devDependencies": {
+    "anywhere": "^1.4.0",
+    "autoprefixer": "^7.2.2",
+    "babel-core": "^6.26.0",
+    "babel-loader": "^7.1.2",
+    "babel-preset-env": "^2.0.0-alpha.20",
+    "babel-runtime": "^6.26.0",
+    "clean-webpack-plugin": "~0.1.17",
+    "copy-webpack-plugin": "~4.0.1",
+    "css-loader": "~0.28.7",
+    "glob": "^7.1.2",
+    "postcss-plugin-px2rem": "^0.7.0",
+    "postcss-plugin-weex": "^0.1.1",
+    "postcss-px2rem": "^0.3.0",
+    "vue": "^2.5.3",
+    "vue-loader": "^12.2.2",
+    "vue-template-compiler": "^2.5.3",
+    "webpack": "^2.7.0",
+    "weex-loader": "^0.6.0-beta.3",
+    "weex-vue-loader": "^0.5.0-beta.3",
+    "weex-vue-precompiler": "^0.1.10",
+    "weex-vue-render": "^1.0.4"
+  },
+  "dependencies": {
+    "gulp": "^3.9.1",
+    "gulp-autoprefixer": "^5.0.0",
+    "gulp-cssmin": "^0.2.0",
+    "gulp-sass": "^3.1.0"
+  }
+}
