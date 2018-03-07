@@ -1,6 +1,6 @@
 {
   "name": "wxos-ui",
-  "version": "1.0.3",
+  "version": "1.0.4",
   "description": "A wxos-ui project",
   "main": "index.js",
   "author": "yinshipeng@126.com",
@@ -13,7 +13,7 @@
   },
   "repository": {
     "type": "git",
-    "url": "git@github.com:yinshipeng/wxos-ui.git"
+    "url": "git+ssh://git@github.com/yinshipeng/wxos-ui.git"
   },
   "keywords": [
     "Weex Ui",
@@ -51,5 +51,13 @@
     "gulp-autoprefixer": "^5.0.0",
     "gulp-cssmin": "^0.2.0",
     "gulp-sass": "^3.1.0"
+  },
+  "bugs": {
+    "url": "https://github.com/yinshipeng/wxos-ui/issues"
+  },
+  "homepage": "https://github.com/yinshipeng/wxos-ui#readme",
+  "directories": {
+    "example": "example",
+    "lib": "lib"
   }
 }
