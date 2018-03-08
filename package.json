@@ -8,7 +8,7 @@
   "scripts": {
     "build": "webpack --progress",
     "watch": "webpack --progress --watch",
-    "serve": "anywhere -d build/example/ -p 8111",
+    "serve": "anywhere -d build/example/ -p 8111 -s",
     "start": "gulp & npm run build && (npm run serve & npm run watch)"
   },
   "repository": {
@@ -31,9 +31,13 @@
     "babel-preset-env": "^2.0.0-alpha.20",
     "babel-runtime": "^6.26.0",
     "clean-webpack-plugin": "~0.1.17",
-    "copy-webpack-plugin": "~4.0.1",
+    "copy-webpack-plugin": "^4.0.1",
     "css-loader": "~0.28.7",
     "glob": "^7.1.2",
+    "gulp": "^3.9.1",
+    "gulp-autoprefixer": "^5.0.0",
+    "gulp-cssmin": "^0.2.0",
+    "gulp-sass": "^3.1.0",
     "postcss-plugin-px2rem": "^0.7.0",
     "postcss-plugin-weex": "^0.1.1",
     "postcss-px2rem": "^0.3.0",
@@ -41,17 +45,12 @@
     "vue-loader": "^12.2.2",
     "vue-template-compiler": "^2.5.3",
     "webpack": "^2.7.0",
-    "weex-loader": "^0.6.0-beta.3",
-    "weex-vue-loader": "^0.5.0-beta.3",
-    "weex-vue-precompiler": "^0.1.10",
-    "weex-vue-render": "^1.0.4"
+    "weex-loader": "^0.7.2",
+    "weex-vue-loader": "^0.6.1",
+    "weex-vue-precompiler": "^0.1.17",
+    "weex-vue-render": "^1.0.17"
   },
-  "dependencies": {
-    "gulp": "^3.9.1",
-    "gulp-autoprefixer": "^5.0.0",
-    "gulp-cssmin": "^0.2.0",
-    "gulp-sass": "^3.1.0"
-  },
+  "dependencies": {},
   "bugs": {
     "url": "https://github.com/yinshipeng/wxos-ui/issues"
   },

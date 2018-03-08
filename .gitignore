@@ -10,3 +10,4 @@ temp
 .idea/
 dist/
 build/
+yarn-error.log

@@ -17,7 +17,4 @@
         }
     }
 </script>
-<style>
-    .wx-demo {
-    }
-</style>
+<style src="../_public/index.css"></style>

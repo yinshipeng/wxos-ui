@@ -5,10 +5,10 @@
   justify-content: center;
   width: 670px;
   height: 90px;
-  border-radius: 12px;
+  border-radius: $--border-radius-base;
 }
 
 .wx-text {
-  color: #ffffff;
-  font-size: 32px;
+  color: $--color-white;
+  font-size: $--size-base;
 }

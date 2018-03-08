@@ -12,9 +12,9 @@
                 type: String,
                 default: '#ffffff'
             },
-            textFontSize: {
+            textSize: {
                 type: String,
-                default: '36px'
+                default: '32px'
             }
         },
         data () {
@@ -26,7 +26,7 @@
             setStyle () {
                 this.textStyles = {
                     color: this.textColor,
-                    fontSize: this.textFontSize
+                    fontSize: this.textSize
                 }
             },
             handleClick (e) {
@@ -38,6 +38,4 @@
         }
     }
 </script>
-<style>
-    @import "../../theme/wx-button.css";
-</style>
+<style src="../../theme/button.css"></style>
